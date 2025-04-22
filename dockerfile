@@ -15,4 +15,4 @@ RUN npm install
 COPY . .
 
 #start the application
-CMD ["npm", "dev"]
+CMD ["node", "dev"]
