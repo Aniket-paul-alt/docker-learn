@@ -15,4 +15,4 @@ RUN npm install
 COPY . .
 
 #start the application
-CMD ["nodemon", "index.js"]
+CMD ["npm", "start"]
